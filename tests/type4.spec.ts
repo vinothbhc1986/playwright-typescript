@@ -293,21 +293,17 @@ test("TypeScript interface with Kanye Rest API", async ({ page }) => {
   expect(kanyeQuote.quote).toBeDefined();
 });
 
-test("TypeScript interface with Numbers API", async ({ page }) => {
-    interface NumberFact {
-    text: string;
-    number: number;
-    found: boolean;
-    type: string;
-  }
-  await page.goto("http://numbersapi.com/42?json");
+// don't use numbersapi, check with another one
+test("TypeScript interface with Ron Swanson Quotes API", async ({ page }) => {
+  interface RonSwansonQuote {
+       array: string[];
+    }
+  await page.goto("https://ron-swanson-quotes.herokuapp.com/v2/quotes");
   const response = await page.evaluate(async () => {
-    const res = await fetch("http://numbersapi.com/42?json");
+    const res = await fetch("https://ron-swanson-quotes.herokuapp.com/v2/quotes");
     return res.json();
+  });   
+    const ronSwansonQuote: RonSwansonQuote = { array: response };
+  expect(ronSwansonQuote.array[0]).toBeDefined();
+          
   });
-    const numberFact: NumberFact = response;
-  expect(numberFact.text).toBeDefined();
-  expect(numberFact.number).toBe(42);
-  expect(numberFact.found).toBeDefined();
-  expect(numberFact.type).toBeDefined();
-});
