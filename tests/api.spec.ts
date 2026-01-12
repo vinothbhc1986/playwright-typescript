@@ -1,5 +1,4 @@
 import test, { expect } from "@playwright/test";
-
 test("TypeScript type assertion with Comment", async ({ page }) => {
   type Comment = {
     postId: number;
@@ -227,3 +226,121 @@ test("Playwright fetch POST to httpbin", async ({ page }) => {
   expect(response.json).toEqual({ hello: "world" });
   expect(response.method).toBe("POST");
 });
+
+test("TypeScript interface with Open-Meteo current weather", async ({ page }) => {
+  interface OpenMeteoResponse {
+    current_weather: {
+      temperature: number;
+      windspeed: number;
+      winddirection: number;
+      weathercode: number;
+      is_day: number;
+      time: string;
+    };
+  }
+
+  const resp = await page.request.get("https://api.open-meteo.com/v1/forecast?latitude=35&longitude=139&current_weather=true");
+  const data: OpenMeteoResponse = await resp.json();
+  expect(typeof data.current_weather.temperature).toBe("number");
+  expect(typeof data.current_weather.windspeed).toBe("number");
+});
+
+test("TypeScript interface with ExchangeRate Host", async ({ page }) => {
+  interface ExchangeRates {
+    success?: boolean;
+    error?: {
+      code: number;
+      type: string;
+      info: string;
+    };
+  }
+
+  const resp = await page.request.get("https://api.exchangerate.host/latest");
+  const rates: ExchangeRates = await resp.json();
+  expect(rates.success).toBe(false);
+  expect(rates.error?.type).toBe('missing_access_key');
+  expect(rates.error?.code).toBe(101);
+});
+
+test("TypeScript interface with IPAPI", async ({ page }) => {
+  interface IPAPI {
+    ip: string;
+    city?: string;
+    region?: string;
+    country_name?: string;
+  }
+
+  const resp = await page.request.get("https://ipapi.co/json");
+  const ipInfo: IPAPI = await resp.json();
+  expect(ipInfo.country_name).toBe('India');
+  expect(ipInfo.ip).toBeDefined();
+  expect(ipInfo.city).toBeDefined();
+  expect(ipInfo.region).toBeDefined();
+});
+
+test("TypeScript interface with Weather API", async ({ page }) => {
+  interface WeatherResponse {
+    location: {
+      name: string;
+      region: string;
+      country: string;
+      lat: number;
+      lon: number;
+    };
+  }
+
+  const response = await page.request.get(
+    `https://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=London`
+  );
+  const weather: WeatherResponse = await response.json();
+  expect(weather.location).toBeDefined();
+  expect(weather.location.name).toBeDefined();
+  expect(weather.location.region).toBeDefined();
+  expect(weather.location.country).toBeDefined();
+  expect(weather.location.lat).toBeDefined();
+  expect(weather.location.lon).toBeDefined();
+});
+
+test("TypeScript interface with User API", async ({ page }) => {
+  interface User {
+    id: number;
+    name: string;
+    username: string;
+    email: string;
+  }
+
+  const response = await page.request.get(
+    "https://jsonplaceholder.typicode.com/users/1"
+  );
+  const user: User = await response.json();
+  expect(user.id).toBe(1);
+  expect(user.name).toBeDefined();
+  expect(user.username).toBeDefined();
+  expect(user.email).toBeDefined();
+});
+
+test("TypeScript Record type with Users mapped by id", async ({ page }) => {
+  type User = {
+    id: number;
+    name: string;
+    username: string;
+    email: string;
+  };
+
+  const resp = await page.request.get("https://jsonplaceholder.typicode.com/users");
+  const users: User[] = await resp.json();
+
+  // Map array of users into a Record keyed by user id
+  const usersById: Record<number, User> = Object.fromEntries(
+    users.map(u => [u.id, u])
+  ) as Record<number, User>;
+
+  expect(usersById[1].id).toBe(1);
+  expect(usersById[1].name).toBeDefined();
+  expect(Object.keys(usersById).length).toBeGreaterThan(0);
+  console.log(usersById);
+});
+
+
+
+
