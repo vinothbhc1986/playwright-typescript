@@ -1,0 +1,2 @@
+[     790ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://example.com/form:0
+[     852ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://example.com/favicon.ico:0

@@ -1,0 +1,495 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - button "Skip to main content"
+      - link "Asbury Park Press" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+    - link "MARKETPLACE Search For & Place Classifieds" [ref=e9] [cursor=pointer]:
+      - /url: https://subscribe.app.com/rr/nanobar?gps-source=CPTILELEFT&itm_campaign=2026ENTJANBAUP&itm_medium=ONSITE&success-url=https%3A%2F%2Fwww.app.com%2F
+    - link "SUBSCRIBE NOW Save 50% on 1 Year" [ref=e11] [cursor=pointer]:
+      - /url: https://subscribe.app.com/rr/masthead?gps-source=CPMASTHEAD&itm_campaign=2026ENTJANBAUP&itm_medium=ONSITE&success-url=https%3A%2F%2Fwww.app.com%2F
+    - navigation "Global navigation" [ref=e12]:
+      - link "News" [ref=e13] [cursor=pointer]:
+        - /url: /news/
+      - link "Sports" [ref=e14] [cursor=pointer]:
+        - /url: /sports/
+      - link "Springsteen" [ref=e15] [cursor=pointer]:
+        - /url: /bruce-springsteen
+      - link "Real Estate" [ref=e16] [cursor=pointer]:
+        - /url: /real-estate
+      - link "Advertise" [ref=e17] [cursor=pointer]:
+        - /url: https://advertising.usatoday.com/advertise-with-us/?cid=Web_LiQ_Network_AdvertiseWithUs_AdvertiseInquiry&publication=appcom_asbury_park_press&utm_source=local_publication&utm_medium=menu&utm_campaign=advertise_with_us
+      - link "Obituaries" [ref=e18] [cursor=pointer]:
+        - /url: /obituaries
+      - link "eNewspaper" [ref=e19] [cursor=pointer]:
+        - /url: https://user.app.com/user/enewspaper
+      - link "Legals" [ref=e20] [cursor=pointer]:
+        - /url: /public-notices
+      - button "Global Navigation" [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+      - generic [ref=e25]:
+        - link "Search" [ref=e27] [cursor=pointer]:
+          - /url: /search/
+          - img [ref=e28]
+        - 'link "Weather in Neptune: 33°F Snow" [ref=e30] [cursor=pointer]':
+          - /url: /weather/
+          - text: 33°F
+        - link "Subscribe" [ref=e31] [cursor=pointer]:
+          - /url: https://subscribe.app.com/rr/navsub?gps-source=CPTOPNAVBAR&itm_campaign=2026ENTJANBAUP&itm_medium=ONSITE&success-url=https%3A%2F%2Fwww.app.com%2F
+        - link "Sign In" [ref=e33] [cursor=pointer]:
+          - /url: https://login.app.com/PAPP-GUP/authenticate/?success-url=https%3A%2F%2Fwww.app.com%2F&cancel-url=https%3A%2F%2Fwww.app.com%2F
+          - text: Sign In
+          - img [ref=e34]
+  - complementary "advertisement" [ref=e36]:
+    - text: Advertisement
+    - iframe [ref=e39]:
+      - generic [active] [ref=f10e1]:
+        - iframe
+  - main [ref=e40]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - link "Will your NJ electric bill rise or fall in 2026? Auction results here CONSUMER Feb. 13, 2026" [ref=e43] [cursor=pointer]:
+          - /url: /story/money/business/consumer/2026/02/12/nj-2026-electric-rates-jcpl-atlantic-city-electric-rise-pseg-falls/88621614007/
+          - generic [ref=e44]: Will your NJ electric bill rise or fall in 2026? Auction results here
+          - generic [ref=e45]: CONSUMER Feb. 13, 2026
+        - link "'Survivor' fans line Asbury Park boardwalk for chance to win trip TELEVISION 4:51 p.m. ET Feb. 15" [ref=e46] [cursor=pointer]:
+          - /url: /story/entertainment/television/2026/02/15/survivor-fans-asbury-park-boardwalk-50th-season-challenge/88693880007/
+          - generic [ref=e47]: "'Survivor' fans line Asbury Park boardwalk for chance to win trip"
+          - generic [ref=e48]: TELEVISION 4:51 p.m. ET Feb. 15
+        - 'link "‘A light in this world’: Remembering APP writer Kathleen Maloney LOCAL 4:19 p.m. ET Feb. 15" [ref=e49] [cursor=pointer]':
+          - /url: /story/news/local/2026/02/15/former-app-columnist-kathleen-maloney-dies/88691292007/
+          - generic [ref=e50]: "‘A light in this world’: Remembering APP writer Kathleen Maloney"
+          - generic [ref=e51]: LOCAL 4:19 p.m. ET Feb. 15
+        - 'link "St. Valentine’s Day massacre: From the archives ERIK LARSEN 5:20 a.m. ET Feb. 15" [ref=e52] [cursor=pointer]':
+          - /url: /story/news/history/erik-larsen/2026/02/15/asbury-park-press-nj-archives-for-feb-15/88311994007/
+          - generic [ref=e53]: "St. Valentine’s Day massacre: From the archives"
+          - generic [ref=e54]: ERIK LARSEN 5:20 a.m. ET Feb. 15
+      - generic "Watch Now" [ref=e55]
+      - generic [ref=e56]:
+        - complementary "advertisement" [ref=e57]: Advertisement
+        - complementary "Video - Designer Christian Siriano blends dreams and reality at New York Fashion Week" [ref=e59]:
+          - generic [ref=e61]: CLOSE
+          - generic [ref=e69]: Designer Christian Siriano blends dreams and reality at New York Fashion Week
+          - generic "Christian Siriano debuted surreal designs at New York Fashion Week as Leslie Jones, Monica and Uzo Aduba cheered from the front row." [ref=e70]
+      - generic "More Stories" [ref=e71]
+      - generic [ref=e72]:
+        - link "Seton Hall basketball rallies at Butler, stays in NCAA… COLLEGE" [ref=e73] [cursor=pointer]:
+          - /url: /story/sports/college/2026/02/15/seton-hall-basketball-rallies-at-butler-stays-in-ncaa-tournament-hunt/88645727007/
+          - text: Seton Hall basketball rallies at Butler, stays in NCAA…
+          - generic [ref=e74]: COLLEGE
+        - link "'Survivor' fans line up in Asbury Park LOCAL" [ref=e75] [cursor=pointer]:
+          - /url: /picture-gallery/news/local/2026/02/15/survivor-fans-line-up-in-asbury-park/88693855007/
+          - img [ref=e76]
+          - text: "'Survivor' fans line up in Asbury Park"
+          - generic [ref=e78]: LOCAL
+        - 'link "Neighbors over algorithms: Service Professionals show community commitment - Story from Service Professionals" [ref=e79] [cursor=pointer]':
+          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvSOWsYgLFYSd-bDfxtHMMcxx1C8XesxQ5jSMJIhnSFBenp3ZCOtVkgojsZHandait3K_ZFUADlj5yvwcdX_BMiu26GD39mLakZLn-PppCEiN8Ndj7Xzr32y5DUtxXObsprK2Z--1eu3wwY5aNXwriMQ1oT8WGISVKx8mW8jwtK9cFkYUsVgaO8lsR1HkuGsPg_F_BliaOvgoKxR8sClbyogLc7hY4S-8bDPDYOGyv0-PcRcIDIUq9G2_V_Xewe0CZwtc0Mn0qkSkfHlfmvTdoB2-j8SdddUYwSfrRBn-OUHoTaGqPbfEZ6bBgCNp0pOEnVFAHzg1BlWSEsv8wRjOv4sOInR6dcsb5uMbzGonyK2PxiqLkOUepzSaKmTATu4U-pedvvQtrAVIemTgbSArOuHllqfGXSorxbHBM&sai=AMfl-YTaLSfN27xh1HyyVVmrZPlsT4xu4s7TZYIJdINCHVs_YBdy8BFsKWGeAEOENm6Pztl1OORuQFvvX9UCsFycmQQyVloZeLYyellH9SMXsTyK4zUZ_Ddxqz-CZJWcMLa1k1HOiea2nechSXLOLyx9idmOwMcKVFoA8T8M0L9FRmwtkoGF0ZvrBz2NJB2aHjv69ooqD4M8r7S5hEOjltxAx_8L2G3j788jWknhqMV6Mfk&sig=Cg0ArKJSzJB8emr2NkXbEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https%3A%2F%2Fwww.app.com%2Fstory%2Fsponsor-story%2Fservice-professionals%2F2026%2F02%2F02%2Fneighbors-over-algorithms-service-professionals-show-community-commitment%2F88415826007%2F%3Fmvt%3Di%26mvn%3D466d88a3caad43cebe20404d9e64837a%26mvp%3DNA-GANNLOCASITEMANA-11238693%26mvl%3DKey-tangent-tile%2520%255BTangent%2520Desktop%2520Tile%255D%26utm_campaign%3D317fde027e73404f8608a63bc9f0bf25%26utm_source%3Dpolar%26utm_medium%3Dcpc
+          - text: "Neighbors over algorithms: Service Professionals show community commitment"
+          - generic [ref=e80]: Story from Service Professionals
+        - 'link "Team USA medals at Winter Olympics: Full standings OLYMPICS" [ref=e81] [cursor=pointer]':
+          - /url: /story/sports/olympics/2026/02/15/team-usa-medals-at-winter-olympics-full-standings/88692663007/
+          - text: "Team USA medals at Winter Olympics: Full standings"
+          - generic [ref=e82]: OLYMPICS
+        - 'link "Juan Soto in Year 2: Thoughts on shifting to LF, culture… METS" [ref=e83] [cursor=pointer]':
+          - /url: /story/sports/mlb/mets/2026/02/15/juan-soto-in-year-2-thoughts-on-shifting-to-lf-culture-and-changes/88659297007/
+          - text: "Juan Soto in Year 2: Thoughts on shifting to LF, culture…"
+          - generic [ref=e84]: METS
+        - link "Rutgers basketball ends skid, beats Maryland as program… RUTGERS" [ref=e85] [cursor=pointer]:
+          - /url: /story/sports/college/rutgers/2026/02/15/rutgers-basketball-ends-skid-beats-maryland-as-program-greats-honored/88645706007/
+          - text: Rutgers basketball ends skid, beats Maryland as program…
+          - generic [ref=e86]: RUTGERS
+      - complementary "advertisement" [ref=e87]: Advertisement
+      - generic "News" [ref=e89]:
+        - link "News" [ref=e90] [cursor=pointer]:
+          - /url: /news/
+          - text: News
+          - img [ref=e91]
+      - generic "News section content" [ref=e93]:
+        - 'link "‘A light in this world’: Remembering APP writer Kathleen Maloney LOCAL 4:19 p.m. ET Feb. 15" [ref=e94] [cursor=pointer]':
+          - /url: /story/news/local/2026/02/15/former-app-columnist-kathleen-maloney-dies/88691292007/
+          - text: "‘A light in this world’: Remembering APP writer Kathleen Maloney"
+          - generic [ref=e95]: LOCAL 4:19 p.m. ET Feb. 15
+        - 'link "St. Valentine’s Day massacre: From the archives ERIK LARSEN 5:20 a.m. ET Feb. 15" [ref=e96] [cursor=pointer]':
+          - /url: /story/news/history/erik-larsen/2026/02/15/asbury-park-press-nj-archives-for-feb-15/88311994007/
+          - text: "St. Valentine’s Day massacre: From the archives"
+          - generic [ref=e97]: ERIK LARSEN 5:20 a.m. ET Feb. 15
+        - link "Road salt can damage your car. Here's how to protect it WEATHER 4:45 a.m. ET Feb. 15" [ref=e98] [cursor=pointer]:
+          - /url: /story/weather/2026/02/15/car-damage-from-road-salt-aaa-tips/88651125007/
+          - text: Road salt can damage your car. Here's how to protect it
+          - generic [ref=e99]: WEATHER 4:45 a.m. ET Feb. 15
+      - generic "Sports" [ref=e100]:
+        - link "Sports" [ref=e101] [cursor=pointer]:
+          - /url: /sports/
+          - text: Sports
+          - img [ref=e102]
+      - generic "Sports section content" [ref=e104]:
+        - link "What Jasson Dominguez is doing to stand out in crowded Yankees outfield YANKEES 6:20 p.m. ET Feb. 15" [ref=e105] [cursor=pointer]:
+          - /url: /story/sports/mlb/yankees/2026/02/15/where-jasson-dominguez-stands-in-the-yankees-crowded-outfield-alignment/88658752007/
+          - text: What Jasson Dominguez is doing to stand out in crowded Yankees outfield
+          - generic [ref=e106]: YANKEES 6:20 p.m. ET Feb. 15
+        - link "Monmouth basketball now 3-0 with newcomer Kavion McClain. 3 takeaways MONMOUTH UNIVERSITY 10:46 p.m. ET Feb. 15" [ref=e107] [cursor=pointer]:
+          - /url: /story/sports/college/monmouth-university/2026/02/15/monmouth-basketball-kavion-mcclain-beat-towson-72-71-for-3rd-straight/88695658007/
+          - text: Monmouth basketball now 3-0 with newcomer Kavion McClain. 3 takeaways
+          - generic [ref=e108]: MONMOUTH UNIVERSITY 10:46 p.m. ET Feb. 15
+        - link "Monmouth men's basketball takes on Towson (Feb. 15, 2026) MONMOUTH UNIVERSITY 10:46 p.m. ET Feb. 15" [ref=e109] [cursor=pointer]:
+          - /url: /videos/sports/college/monmouth-university/2026/02/15/monmouth-mens-basketball-takes-on-towson-feb-15-2026/88696195007/
+          - img [ref=e110]
+          - text: Monmouth men's basketball takes on Towson (Feb. 15, 2026)
+          - generic [ref=e112]: MONMOUTH UNIVERSITY 10:46 p.m. ET Feb. 15
+      - generic "Entertainment" [ref=e113]:
+        - link "Entertainment" [ref=e114] [cursor=pointer]:
+          - /url: /things-to-do/
+          - text: Entertainment
+          - img [ref=e115]
+      - generic "Entertainment section content" [ref=e117]:
+        - link "'Survivor' fans line Asbury Park boardwalk for chance to win trip TELEVISION 4:51 p.m. ET Feb. 15" [ref=e118] [cursor=pointer]:
+          - /url: /story/entertainment/television/2026/02/15/survivor-fans-asbury-park-boardwalk-50th-season-challenge/88693880007/
+          - text: "'Survivor' fans line Asbury Park boardwalk for chance to win trip"
+          - generic [ref=e119]: TELEVISION 4:51 p.m. ET Feb. 15
+        - link "'Simpsons' in Philadelphia; when to see 'The Simpsons' Philly episode TELEVISION 7:35 p.m. ET Feb. 15" [ref=e120] [cursor=pointer]:
+          - /url: /story/entertainment/television/2026/02/15/the-simpsons-in-philly-when-to-catch-simpsons-philly-episode/88695915007/
+          - text: "'Simpsons' in Philadelphia; when to see 'The Simpsons' Philly episode"
+          - generic [ref=e121]: TELEVISION 7:35 p.m. ET Feb. 15
+        - link "A Cup of Literature offers unique coffee experience in Asbury Park DINING 1:52 p.m. ET Feb. 15" [ref=e122] [cursor=pointer]:
+          - /url: /videos/entertainment/dining/2026/02/15/a-cup-of-literature-asbury-park/88659106007/
+          - img [ref=e123]
+          - text: A Cup of Literature offers unique coffee experience in Asbury Park
+          - generic [ref=e125]: DINING 1:52 p.m. ET Feb. 15
+      - complementary "advertisement" [ref=e126]: Advertisement
+      - generic "Life" [ref=e128]:
+        - link "Life" [ref=e129] [cursor=pointer]:
+          - /url: /life/
+          - text: Life
+          - img [ref=e130]
+      - generic "Life section content" [ref=e132]:
+        - 'link "When to plant what: Your guide to spring gardening, even in winter HOME & GARDEN 4:46 a.m. ET Feb. 14" [ref=e133] [cursor=pointer]':
+          - /url: /story/life/home-garden/2026/02/14/gardening-when-to-start-planting/88623517007/
+          - text: "When to plant what: Your guide to spring gardening, even in winter"
+          - generic [ref=e134]: HOME & GARDEN 4:46 a.m. ET Feb. 14
+        - link "Meet our adoptable Pets of the Week 💕🐾 PETS Feb. 11, 2026" [ref=e135] [cursor=pointer]:
+          - /url: /picture-gallery/life/pets/2026/02/11/pet-adoption-monmouth-spca-ocean-county-jersey-shore-animal-center-feb-11/88623296007/
+          - img [ref=e136]
+          - text: Meet our adoptable Pets of the Week 💕🐾
+          - generic [ref=e138]: PETS Feb. 11, 2026
+        - link "Are Shamrock Shakes out yet? When does it come back to McDonalds\" TABLE Feb. 10, 2026" [ref=e139] [cursor=pointer]:
+          - /url: /story/life/food/2026/02/10/when-does-the-shamrock-shake-come-out-2026/88605061007/
+          - text: Are Shamrock Shakes out yet? When does it come back to McDonalds"
+          - generic [ref=e140]: TABLE Feb. 10, 2026
+      - generic "Opinion" [ref=e141]:
+        - link "Opinion" [ref=e142] [cursor=pointer]:
+          - /url: /opinion/
+          - text: Opinion
+          - img [ref=e143]
+      - generic "Opinion section content" [ref=e145]:
+        - link "Why New Jersey cannot delay action on antisemitism OPINIONPhilip Goldwasser Feb. 13, 2026" [ref=e146] [cursor=pointer]:
+          - /url: /story/opinion/2026/02/13/nj-antisemitism-opinion/88607375007/
+          - text: Why New Jersey cannot delay action on antisemitism
+          - generic [ref=e147]: OPINIONPhilip Goldwasser Feb. 13, 2026
+        - link "The outrage isn't 'fake.' Trump's vile Obama meme was wrong, racist MIKE KELLY Feb. 12, 2026" [ref=e148] [cursor=pointer]:
+          - /url: /story/opinion/columnists/mike-kelly/2026/02/12/trump-obama-meme-racist-outrage-not-fake-opinion/88630767007/
+          - text: The outrage isn't 'fake.' Trump's vile Obama meme was wrong, racist
+          - generic [ref=e149]: MIKE KELLY Feb. 12, 2026
+        - link "Could Lake Placid deliver a new Miracle with NYC Olympic bid? ED FORBES Feb. 12, 2026" [ref=e150] [cursor=pointer]:
+          - /url: /story/opinion/columnists/ed-forbes/2026/02/12/could-lake-placid-nyc-host-winter-olympics-miracle-ice/88612223007/
+          - text: Could Lake Placid deliver a new Miracle with NYC Olympic bid?
+          - generic [ref=e151]: ED FORBES Feb. 12, 2026
+      - generic "Trending" [ref=e152]:
+        - link "Trending" [ref=e153] [cursor=pointer]:
+          - /url: https://www.usatoday.com/news/trending/
+          - text: Trending
+          - img [ref=e154]
+      - generic "Trending section content" [ref=e156]:
+        - link "Cuban cigar festival postponed as island faces fuel crisis WORLD 5:39 p.m. ET Feb. 15" [ref=e157] [cursor=pointer]:
+          - /url: /story/news/world/2026/02/15/2026-habanos-festival-postponed/88692798007/
+          - text: Cuban cigar festival postponed as island faces fuel crisis
+          - generic [ref=e158]: WORLD 5:39 p.m. ET Feb. 15
+        - link "Is the stock market open on Presidents Day? Here's what to know. NATION 3:00 p.m. ET Feb. 15" [ref=e159] [cursor=pointer]:
+          - /url: /story/news/nation/2026/02/15/stock-market-presidents-day-2026/88651235007/
+          - text: Is the stock market open on Presidents Day? Here's what to know.
+          - generic [ref=e160]: NATION 3:00 p.m. ET Feb. 15
+        - link "Here's what is open and closed on Presidents Day NATION 12:00 p.m. ET Feb. 15" [ref=e161] [cursor=pointer]:
+          - /url: /story/news/nation/2026/02/15/presidents-day-2026-open-closed/88658866007/
+          - text: Here's what is open and closed on Presidents Day
+          - generic [ref=e162]: NATION 12:00 p.m. ET Feb. 15
+      - complementary "advertisement" [ref=e163]: Advertisement
+      - generic "Shopping" [ref=e165]:
+        - link "Shopping" [ref=e166] [cursor=pointer]:
+          - /url: /shopping/
+          - text: Shopping
+          - img [ref=e167]
+      - generic "Shopping section content" [ref=e169]:
+        - link "8 February golf deals you don't want to miss SHOPPING 4:49 p.m. ET Feb. 15" [ref=e170] [cursor=pointer]:
+          - /url: https://golfweek.usatoday.com/story/sports/golf/equipment/2026/02/14/february-golf-sales-deals-on-golf-apparel-from-nike-adidas-and-more/88645475007/
+          - text: 8 February golf deals you don't want to miss
+          - generic [ref=e171]: SHOPPING 4:49 p.m. ET Feb. 15
+        - link "Don't miss $400 off at the Saatva Presidents Day mattress sale → SHOPPING 4:03 p.m. ET Feb. 15" [ref=e172] [cursor=pointer]:
+          - /url: https://www.usatoday.com/story/shopping/2026/01/28/saatva-presidents-day-mattress-sale-2026/88395665007/
+          - text: Don't miss $400 off at the Saatva Presidents Day mattress sale →
+          - generic [ref=e173]: SHOPPING 4:03 p.m. ET Feb. 15
+        - 'link "Best Presidents Day mattress promo codes: Leesa, Helix, Bear, more SHOPPING 3:35 p.m. ET Feb. 15" [ref=e174] [cursor=pointer]':
+          - /url: https://www.usatoday.com/story/shopping/2026/02/07/exclusive-presidents-day-mattress-promo-codes/88564644007/
+          - text: "Best Presidents Day mattress promo codes: Leesa, Helix, Bear, more"
+          - generic [ref=e175]: SHOPPING 3:35 p.m. ET Feb. 15
+      - generic "Featured Gallery" [ref=e176]
+      - link "View Gallery - Marlboro, CBA advance in the Shore Conference Quarterfinals" [ref=e178] [cursor=pointer]:
+        - /url: /picture-gallery/sports/high-school/2026/02/14/marlboro-cba-advance-in-the-shore-conference-quarterfinals/88682158007/
+        - img [ref=e179]
+        - generic [ref=e181]:
+          - text: 44 Photos
+          - img [ref=e182]
+          - text: VIEW GALLERY
+        - generic [ref=e184]: Marlboro, CBA advance in the Shore Conference Quarterfinals
+      - generic "Extra, Extra" [ref=e185]
+      - generic [ref=e186]:
+        - link "ENTER NOW Your shot at winning a $200 GAS GIFT CARD!" [ref=e187] [cursor=pointer]:
+          - /url: https://app.gannettcontests.com/NJ-Auto-Pros-200-Gas-Card/?itm_campaign=NJ%20Auto%20Pros%20200%20Gas%20Card%20Giveaway&itm_medium=con&itm_source=secondStreet
+          - text: ENTER NOW
+          - img [ref=e188]
+          - text: Your shot at winning a $200 GAS GIFT CARD!
+        - link "Winners Announced! Check out the 2025 winners and finalists!" [ref=e190] [cursor=pointer]:
+          - /url: https://app.secondstreetapp.com/2025-Communitys-Choice-Showcase/?itm_campaign=BOB%20Asbury%20Park&itm_medium=con&itm_source=secondStreet
+          - text: Winners Announced!
+          - img [ref=e191]
+          - text: Check out the 2025 winners and finalists!
+        - link "Nominate Today! Nominations are OPEN!" [ref=e193] [cursor=pointer]:
+          - /url: https://www.profootballhof.com/news/2025/09/pro-football-hall-of-fame-awards-of-character-recognize-extraordinary-individuals/?utm_source=Localiq&utm_medium=promo&utm_campaign=awards&&itm_campaign=PFHOF%20Awards%20of%20Character&itm_medium=con&itm_source=secondStreet
+          - text: Nominate Today!
+          - img [ref=e194]
+          - text: Nominations are OPEN!
+        - link "More in Contests" [ref=e196] [cursor=pointer]:
+          - /url: /contests/?itm_campaign=tangent.app.com&itm_medium=more-in-contest&itm_source=homepage-widget
+          - text: More in Contests
+          - img [ref=e197]
+      - generic [ref=e200]:
+        - generic [ref=e207] [cursor=pointer]:
+          - iframe [ref=e208]:
+            - link [ref=f28e5] [cursor=pointer]:
+              - /url: https://trc.taboola.com/gannettcompany-app/log/3/click?pi=%2F&ri=57769a715a9b31bdea7bd21bc199f127&sd=v2_9a9e969a94955dc7685e97f658e6cbdd_66bfd3b4-f902-4f80-be5f-f9ebf9429646-tuct108c51bc_1771228220_1771228222_CIi3jgYQ0qI9GOGbt6vGMyABKAEwZziY0QpA848QSPrZ4ANQp90VWABgAGjxzbjc1NaQ1HNwAYABAIgBAA&ui=66bfd3b4-f902-4f80-be5f-f9ebf9429646-tuct108c51bc&ii=~~V1~~6977712643927307039~~EgpyzXAUtV8t6dPbnree2qX_Goe5N4uIgklx_aHtInECCrC4ouMhT1tkwnIxMvlVvxEgc4GQ1MrerSFSMXAK-lyiDmXdtcWqLXZMPDMbU06qET74vx285EPwiUGmc_vhzEnjO7Kk-thLl4f0lwqFSJ3U6-dYoRD_-exZawSzV97OKu5WnnHGV4xzy4AtGtHb-PGRdlpDODeQzmoGtXNHwg&it=text&pt=home&li=rbox-h2m&sig=5a463366785e883fa33ff96062ab59e1b21e2612529b&st=h&rap=utm_source%3Dtaboola%26utm_medium%3Dcpl%26utm_campaign%3Dfd_taboola_cpl_web_lead_231225_sfl_t1_predictive_en%26utm_content%3Dtaboola_predictive_display%26utm_placement%3Dgannettcompany-app%26utm_campaignid%3D47796456%26utm_adid%3D4210044168%26tblci%3DGiDuz-rEPP1jGGSNPJ-KjRCJbrYpNZh41dS-Xnzw2kUl0SDMonUon5_a2dWQpP8eMNKiPQ&vi=1771228220897&p=shriramfinance-fd-sc&lti=trecs-2923-google-adx-privacy-fixes_ctrl&r=502&tvi48=28060&tvi50=9541&ppb=CKwD&cpb=EhIyMDI2MDIxNS0yLVJFTEVBU0UYtQwgnP__________ASoZaGsudGFib29sYXN5bmRpY2F0aW9uLmNvbTIIdHJjNjAyNDQ4gPTM1QdAmNEKSPOPEFD62eADWKfdFWMI2LEBEOTiARhBZGMIyJwBEPDjARhDZGMI1xYQ1R8YI2RjCNIDEOAGGAhkYwi3__________8BELf__________wEYSWRjCIC0ARDT5QEYCmRjCKGlARCk0QEYC2RjCKykARDbzwEYDGRjCKQnEIo1GC9kYwjx__________8BEPH__________wEYD2RjCJasARCc2wEYMGRjCO___________wEQ7___________ARgRZGMI-jcQxUoYMmRjCMouEJE-GDNkYwiWFBCbHBgYZGMIqIUBEO6oARg6ZGMIxk4Q_WcYPGRjCPQUEJ4dGB9keAGAAf___________wGIAf___________wGQAQGYAf6ot6vGM9sBEAHcAQ&cv=20260215-2-RELEASE&route=HK%3AHK%3AV&redir=https%3A%2F%2Finvest.shriramfinance.in%2Ffixed-deposit-onlinev6%23tblciGiDuz-rEPP1jGGSNPJ-KjRCJbrYpNZh41dS-Xnzw2kUl0SDMonUon5_a2dWQpP8eMNKiPQ
+              - img [ref=f28e6]
+          - generic [ref=e209]:
+            - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e210]':
+              - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=above-the-feed-premium-card-fp-delta:Below Homepage Feed - Feed Redesign | Lazy Injected 1:"
+            - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e211]':
+              - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=above-the-feed-premium-card-fp-delta:Below Homepage Feed - Feed Redesign | Lazy Injected 1:"
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - heading [level=3]
+          - generic [ref=e218]:
+            - generic:
+              - generic [ref=e219] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e220]:
+                  - /url: https://prouseum-cheads.xyz/e9e75c2e-b505-4d2f-a3bc-649b14ee7503
+                  - img "Image for Taboola Advertising Unit" [ref=e222]
+                - 'link "A 70-year-old lady talks about this highly successful bra for older women Review Beauty in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog)" [ref=e224]':
+                  - /url: https://prouseum-cheads.xyz/e9e75c2e-b505-4d2f-a3bc-649b14ee7503
+                  - generic [ref=e225]:
+                    - link "A 70-year-old lady talks about this highly successful bra for older women" [ref=e226]
+                    - generic [ref=e227]:
+                      - link "Review Beauty in Taboola advertising section" [ref=e228]: Review Beauty
+                      - generic [ref=e229]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e231]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-original-03:Below Homepage Feed - Feed Redesign | Card 1:"
+                        - text: Ad
+              - generic [ref=e232] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e233]:
+                  - /url: https://prouseum-cheads.xyz/e9e75c2e-b505-4d2f-a3bc-649b14ee7503
+                  - img "Image for Taboola Advertising Unit" [ref=e235]
+                - 'link "The posture-correcting bra that all women are snapping up Review Beauty in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog)" [ref=e237]':
+                  - /url: https://prouseum-cheads.xyz/e9e75c2e-b505-4d2f-a3bc-649b14ee7503
+                  - generic [ref=e238]:
+                    - link "The posture-correcting bra that all women are snapping up" [ref=e239]
+                    - generic [ref=e240]:
+                      - link "Review Beauty in Taboola advertising section" [ref=e241]: Review Beauty
+                      - generic [ref=e242]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e244]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-original-03:Below Homepage Feed - Feed Redesign | Card 1:"
+                        - text: Ad
+              - generic [ref=e245] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e246]:
+                  - /url: https://prouseum-cheads.xyz/52892e46-35e2-42c2-8a70-e47b0fa857c8
+                  - img "Image for Taboola Advertising Unit" [ref=e248]
+                - 'link "The best-selling hearing aid on Amazon is back on promoti on Hearing Magazine in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog)" [ref=e250]':
+                  - /url: https://prouseum-cheads.xyz/52892e46-35e2-42c2-8a70-e47b0fa857c8
+                  - generic [ref=e251]:
+                    - link "The best-selling hearing aid on Amazon is back on promoti on" [ref=e252]
+                    - generic [ref=e253]:
+                      - link "Hearing Magazine in Taboola advertising section" [ref=e254]: Hearing Magazine
+                      - generic [ref=e255]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e257]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-original-03:Below Homepage Feed - Feed Redesign | Card 1:"
+                        - text: Ad
+              - generic [ref=e258] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e259]:
+                  - /url: https://prouseum-cheads.xyz/52892e46-35e2-42c2-8a70-e47b0fa857c8
+                  - img "Image for Taboola Advertising Unit" [ref=e261]
+                - 'link "This device changes the lives of seniors with hearing loss (without breaking the bank) Hearing Magazine in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog)" [ref=e263]':
+                  - /url: https://prouseum-cheads.xyz/52892e46-35e2-42c2-8a70-e47b0fa857c8
+                  - generic [ref=e264]:
+                    - link "This device changes the lives of seniors with hearing loss (without breaking the bank)" [ref=e265]
+                    - generic [ref=e266]:
+                      - link "Hearing Magazine in Taboola advertising section" [ref=e267]: Hearing Magazine
+                      - generic [ref=e268]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e270]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-original-03:Below Homepage Feed - Feed Redesign | Card 1:"
+                        - text: Ad
+              - generic [ref=e271] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e272]:
+                  - /url: https://www.iforex.in/landing_pages/br1/hi/DoubleYourBalance
+                  - img "Image for Taboola Advertising Unit" [ref=e274]
+                - 'link "Start Forex Trading. Get a 100% Welcome Bonus Find out why you should join iFOREX, a regulated broker with over 25 years... iFOREX in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Sign Up" [ref=e276]':
+                  - /url: https://www.iforex.in/landing_pages/br1/hi/DoubleYourBalance
+                  - generic [ref=e277]:
+                    - link "Start Forex Trading. Get a 100% Welcome Bonus" [ref=e278]
+                    - generic [ref=e279]: Find out why you should join iFOREX, a regulated broker with over 25 years...
+                    - generic [ref=e280]:
+                      - link "iFOREX in Taboola advertising section" [ref=e281]: iFOREX
+                      - generic [ref=e282]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e284]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-original-03:Below Homepage Feed - Feed Redesign | Card 1:"
+                        - text: Ad
+                    - button "Sign Up" [ref=e286]
+              - generic [ref=e287] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e288]:
+                  - /url: https://in.hear.com/d/en_price_list_display
+                  - img "Image for Taboola Advertising Unit" [ref=e290]
+                - 'link "AI-powered hearing aid at surprising cost. Recommended by audiologist Hearing Aids in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Learn More" [ref=e292]':
+                  - /url: https://in.hear.com/d/en_price_list_display
+                  - generic [ref=e293]:
+                    - link "AI-powered hearing aid at surprising cost." [ref=e294]
+                    - generic [ref=e295]: Recommended by audiologist
+                    - generic [ref=e296]:
+                      - link "Hearing Aids in Taboola advertising section" [ref=e297]: Hearing Aids
+                      - generic [ref=e298]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e300]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-original-03:Below Homepage Feed - Feed Redesign | Card 1:"
+                        - text: Ad
+                    - button "Learn More" [ref=e302]
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - heading [level=3]
+          - generic [ref=e309]:
+            - generic:
+              - generic [ref=e310] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e311]:
+                  - /url: https://in.hear.com/d/en_price_list_display
+                  - img "Image for Taboola Advertising Unit" [ref=e313]
+                - 'link "The cost of hearing aids in Finger Post might surprise you Hearing Aids in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Learn More" [ref=e315]':
+                  - /url: https://in.hear.com/d/en_price_list_display
+                  - generic [ref=e316]:
+                    - link "The cost of hearing aids in Finger Post might surprise you" [ref=e317]
+                    - generic [ref=e318]:
+                      - link "Hearing Aids in Taboola advertising section" [ref=e319]: Hearing Aids
+                      - generic [ref=e320]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e322]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-desktop-03:Below Homepage Feed - Feed Redesign | Card 2:"
+                        - text: Ad
+                    - button "Learn More" [ref=e324]
+              - generic [ref=e325] [cursor=pointer]:
+                - link "Image for Taboola Advertising Unit" [ref=e326]:
+                  - /url: https://tradewise.thefuture.university/cltah1pmp01bbpcsu5o3uytxa/long-free/bala-market-taboola
+                  - img "Image for Taboola Advertising Unit" [ref=e328]
+                - 'link "Mr. Bala’s Powerful Intraday Strategy Revealed – No More Guesswork TradeWise in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Learn More" [ref=e330]':
+                  - /url: https://tradewise.thefuture.university/cltah1pmp01bbpcsu5o3uytxa/long-free/bala-market-taboola
+                  - generic [ref=e331]:
+                    - link "Mr. Bala’s Powerful Intraday Strategy Revealed – No More Guesswork" [ref=e332]
+                    - generic [ref=e333]:
+                      - link "TradeWise in Taboola advertising section" [ref=e334]: TradeWise
+                      - generic [ref=e335]: "|"
+                      - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e337]':
+                        - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-desktop-03:Below Homepage Feed - Feed Redesign | Card 2:"
+                        - text: Ad
+                    - button "Learn More" [ref=e339]
+        - generic [ref=e345]:
+          - generic:
+            - generic [ref=e346] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e347]:
+                - /url: https://tradewise.thefuture.university/cm10qk8t810uxpc7djo0zxzo0/long-free/gopal-options-taboola
+                - img "Image for Taboola Advertising Unit" [ref=e349]
+              - 'link "Option Trading: Mr. Gopal Reveals His Powerful Laxman Rekha Strategy For Free TradeWise in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Learn More" [ref=e351]':
+                - /url: https://tradewise.thefuture.university/cm10qk8t810uxpc7djo0zxzo0/long-free/gopal-options-taboola
+                - generic [ref=e352]:
+                  - 'link "Option Trading: Mr. Gopal Reveals His Powerful Laxman Rekha Strategy For Free" [ref=e353]'
+                  - generic [ref=e354]:
+                    - link "TradeWise in Taboola advertising section" [ref=e355]: TradeWise
+                    - generic [ref=e356]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e358]':
+                      - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-desktop-03:Below Homepage Feed - Feed Redesign | Card 3:"
+                      - text: Ad
+                  - button "Learn More" [ref=e360]
+            - generic [ref=e361] [cursor=pointer]:
+              - link "Image for Taboola Advertising Unit" [ref=e362]:
+                - /url: https://www.indiaistore.com/enterprise/MBA-M4
+                - img "Image for Taboola Advertising Unit" [ref=e364]
+              - 'link "Speed of lightness. Genius for business. Macbook in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Book Now" [ref=e366]':
+                - /url: https://www.indiaistore.com/enterprise/MBA-M4
+                - generic [ref=e367]:
+                  - link "Speed of lightness. Genius for business." [ref=e368]
+                  - generic [ref=e369]:
+                    - link "Macbook in Taboola advertising section" [ref=e370]: Macbook
+                    - generic [ref=e371]: "|"
+                    - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e373]':
+                      - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-feed-desktop-03:Below Homepage Feed - Feed Redesign | Card 3:"
+                      - text: Ad
+                  - button "Book Now" [ref=e375]
+        - generic [ref=e381] [cursor=pointer]:
+          - generic:
+            - generic:
+              - img "Image for Taboola Advertising Unit"
+          - generic "You might be interested" [ref=e382]:
+            - generic [ref=e383]:
+              - link "You might be interested" [ref=e384]
+              - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e387]':
+                - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=google-adx-card-delta:Below Homepage Feed - Feed Redesign | Card 4:"
+                - text: Ad
+    - generic [ref=e389]:
+      - generic "Top Headlines" [ref=e390]:
+        - text: Top Headlines
+        - link "Monmouth basketball now 3-0 with newcomer Kavion McClain. 3 takeaways" [ref=e391] [cursor=pointer]:
+          - /url: https://www.app.com/story/sports/college/monmouth-university/2026/02/15/monmouth-basketball-kavion-mcclain-beat-towson-72-71-for-3rd-straight/88695658007/
+        - link "Toms River mansion, once home to Batmobile, for sale for $6M" [ref=e392] [cursor=pointer]:
+          - /url: https://www.app.com/story/marketplace/real-estate/2026/02/15/toms-river-mansion-once-home-to-batmobile-for-sale-for-6m/88587681007/
+        - link "Live stream Paul Caneiro murder trial here" [ref=e393] [cursor=pointer]:
+          - /url: https://www.app.com/story/news/local/courts/2026/02/13/paul-caneiro-trial-livestream-from-monmouth-county-feb-13/88658367007/
+        - link "Pro wrestling stars host charity event for military, first responders" [ref=e394] [cursor=pointer]:
+          - /url: https://www.app.com/story/sports/pro-wrestling/2026/02/14/battle-for-brave-wrestling-show-benefits-military-first-responders/88662793007/
+        - link "Seton Hall basketball rallies at Butler, stays in NCAA Tournament hunt" [ref=e395] [cursor=pointer]:
+          - /url: https://www.app.com/story/sports/college/2026/02/15/seton-hall-basketball-rallies-at-butler-stays-in-ncaa-tournament-hunt/88645727007/
+      - complementary "advertisement" [ref=e397]: Advertisement
+      - 'form "Sign up for newsletter: Daily Briefing" [ref=e400]':
+        - text: Daily Briefing, in your inbox
+        - textbox "Email address" [ref=e401]:
+          - /placeholder: Email Address
+        - button "Submit to sign up for newsletter" [ref=e402]:
+          - img [ref=e403]
+        - text: Start your day with the morning's top news
+      - generic [ref=e405]:
+        - text: We're always working to improve your experience.
+        - link "We're always working to improve your experience. Let us know what you think." [ref=e406] [cursor=pointer]:
+          - /url: https://cm.app.com/site-feedback/?platform=Tangent-Desktop&url=https%3A%2F%2Fwww.app.com%2F&marketName=app&cta=Right-Rail
+          - text: Let us know what you think.
+      - generic [ref=e411]:
+        - heading "AD CONTENT" [level=3] [ref=e413]
+        - generic [ref=e416] [cursor=pointer]:
+          - link "Image for Taboola Advertising Unit" [ref=e417]:
+            - /url: https://www.flipkart.com/tecno-Pova-Curve-2-5G-Melting-Silver-128-GB/p/itm55bac6e44a4fe
+            - img "Image for Taboola Advertising Unit" [ref=e419]
+          - 'link "Pova Curve 2: Power That Defies Its Size TECNO Mobile in Taboola advertising section | Sponsored: learn about this recommendation (opens dialog) Book Now" [ref=e421]':
+            - /url: https://www.flipkart.com/tecno-Pova-Curve-2-5G-Melting-Silver-128-GB/p/itm55bac6e44a4fe
+            - generic [ref=e422]:
+              - 'link "Pova Curve 2: Power That Defies Its Size" [ref=e423]'
+              - generic [ref=e424]:
+                - link "TECNO Mobile in Taboola advertising section" [ref=e425]: TECNO Mobile
+                - generic [ref=e426]: "|"
+                - 'link "Sponsored: learn about this recommendation (opens dialog)" [ref=e428]':
+                  - /url: "https://popup.taboola.com/en/?template=colorbox&utm_source=gannettcompany-app&utm_medium=referral&utm_content=thumbnails-rr:Right Rail Home Thumbnails - Redesign:"
+                  - text: Ad
+              - button "Book Now" [ref=e430]
+      - complementary "advertisement" [ref=e432]: Advertisement
+      - complementary "advertisement" [ref=e435]: Advertisement
+      - complementary "advertisement" [ref=e438]: Advertisement
+      - complementary "advertisement" [ref=e440]: Advertisement
+  - contentinfo [ref=e442]:
+    - complementary "advertisement" [ref=e443]: Advertisement
+    - text: About Support Stay Connected Our Partners
+    - generic [ref=e445]: © 2026 www.app.com. All rights reserved.
